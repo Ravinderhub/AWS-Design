@@ -14,3 +14,11 @@ d)	Step 4: Execution progress invoked by activity tasks in Step Functions. Becau
 e)	Step 5: As soon as an ETL Runner receives a task, it starts the respective ETL job. An ETL Runner maintains a state of active jobs in an Amazon DynamoDB table. Periodically, the ETL Runner checks the status of active jobs. When an active ETL job completes, the ETL Runners notifies the AWS Step Functions state machine. This allows the ETL workflow in AWS Step Functions to proceed to the next step.
 f)	Step 6: the ETL Runner – is an AWS Lambda function that gets triggered on a schedule using CloudWatch Events. A CloudWatch Events event handler is then configured on an Amazon S3 bucket, so that when Sales or Marketing dataset files are uploaded to the bucket, Amazon S3 invokes an AWS Lambda function. The Lambda function then signals the waiting state machine to exit the activity task corresponding to the uploaded dataset. The subsequent ETL job is then invoked by the state machine. 
 
+
+
+Comment
+
+
+I did not make much changes to the terraform files, I only started working on Terraform about 3 months now. Currently we are using terraform to deploy the servers on to the vSphere onprem. very basic python scripts that we use in the automation. In my team we do have python developers to help us if we need anything.
+If i qualify for this position i am willing to learn and i am a quick learner as well.
+I completed my AWS SAA-02 recently and I am aware that there is a lot to learn.I am very much successful in every challenge that I take in my career path.
